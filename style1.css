@@ -1,0 +1,84 @@
+* {
+  font-family: "Instrument Serif", serif;
+  font-family: "Roboto", sans-serif;
+   list-style-type: none;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 0px;
+    background-color:darkseagreen ; */
+}
+
+#p {
+  display: inline-block;
+}
+
+.header {
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  background-color: #0d5c63;
+  color: azure;
+  font-weight: bolder;
+  height: 40px;
+  width: 100%;
+  position: relative;
+  list-style-type: none;
+  text-transform: uppercase;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  word-spacing: 50px;
+  text-align: end;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  margin-top: 0px;
+}
+
+.contactInfo {
+  width: 500px;
+  font-weight: bolder;
+  color: #0d5c63;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 80px;
+ 
+    
+}
+.img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 100px;
+    box-shadow: 13px 13px 10px -8px rgb(82, 80, 80);
+}
+.summery {
+  color: #0d5c63;
+  font-weight: bolder;
+  margin-top: 0px;
+}
+.summery-list {
+  color: #0d5c63;
+  font-weight: bolder;
+  margin-top: 0px;
+}
+
+#table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  font-style: italic;
+  table-layout: auto;
+}
+td,
+th {
+  border: 1px solid;
+  color: gray ;
+  text-align: center;
+  padding: 8px;
+}
+#h2 {
+  font-style: italic;
+  color: #0d5c63;
+  border: 50px;
+  border-color: cornflowerblue;
+  border-radius: 50%;
+}

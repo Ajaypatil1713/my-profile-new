@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+header{
+    background-color: #F99FC9FF;
+    padding: 10px;
+    /* position: fixed; */
+}
+nav{
+    margin-left: 880px;
+    padding: 7px;
+}
+header nav ul li{
+    display: inline;
+    margin-left: 20px;
+    list-style-type: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold; 
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px;
+}
+.container{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+}
+.info img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 80px;
+}
+.contactinfo{
+    background-color: white;
+    margin-left: 250px;
+    padding-top: 50px; 
+    border-radius: 30px;
+}
+.contactinfo h2{
+    font-weight: bolder;
+    word-spacing: 5px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: #0D5C63;
+    text-shadow: 1px 1px 1px rgb(75, 74, 74);
+}
+.contactinfo p{
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: #0D5C63;
+}
+.summary{
+    margin-top: 30px;
+}
+.summary h2{
+    color: #0D5C63;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(75, 74, 74);
+}
+.summary ul li{
+    color: #0D5C63;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+    word-spacing: 2px;
+    list-style-type: none;
+}
+.summary ul li::before{
+    content: '✍️';
+    padding-right: 20px;
+    font-size: larger;
+    list-style-type: none;
+}
+.education {
+    color: #0D5C63;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.education tr td {
+    border: 1px solid #0D5C63;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.education th{
+    border: 1px solid #0D5C63;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EF6079FF;
+}
+#one{
+    background-color:#F99FC9FF;
+}
+#two{
+    background-color: #F7CED7FF;
+}
+#three{
+    background-color: #F1F3FFFF;
+}
+.techstack{
+    background-color: white;
+}
+.techstack h2{
+    font-weight: bolder;
+    word-spacing: 5px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #0D5C63;
+    text-shadow: 1px 1px 1px rgb(75, 74, 74);
+    background-color: white;
+}
+.techstack tr td{
+    border: 1px solid #0D5C63;
+    color: #0D5C63;
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-spacing: 2px;
+    font-weight: bold;
+}
+#tableone tbody tr td label{
+    color: #0D5C63;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+#tableone tbody tr td input{
+    color: #0D5C63;
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    border-radius: 20px;
+    border: 1px solid #0D5C63;
+    padding: 3px;
+    margin: 2px 0px 2px 0px;
+    width: 250px; 
+}
+#tabletwo tr td {
+    background-color: #EF6079FF;
+}
+#tabletwo #tab1{
+    background-color: #EF6079FF;
+}
+#tabletwo #tab2{
+    background-color: rgb(241, 119, 140);
+}
+#tabletwo #tab3{
+    background-color: rgb(240, 130, 148);
+}
+#tabletwo #tab4{
+    background-color: rgb(237, 143, 159);
+}
+#tabletwo #tab5{
+    background-color: rgb(235, 161, 174);
+}
+#tabletwo #tab6{
+    background-color: rgb(236, 176, 186);
+}
+#tabletwo #tab7{
+    background-color: rgb(238, 205, 211);
+}
+#tabletwo #tab8 {
+    background-color: #F99FC9FF;
+}
+#h2{
+    font-weight: bolder;
+    word-spacing: 5px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #0D5C63;
+    text-shadow: 1px 1px 1px rgb(75, 74, 74);
+    background-color: white;
+}
+.personal{
+    background-color: #F99FC9FF;
+    padding: 20px 0px 0px 20px;
+}
+.personal img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 100px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.personalinfo{ 
+    background-color: #F7CED7FF;
+    margin-left: 250px;
+    margin-right: 600px;
+    padding: 30px;
+    border: 0px solid #0D5C63;
+    border-radius: 20px;
+}
+.personaldetails{
+    padding: 20px 0px 0px 20px;
+    font-family: 'Roboto', sans-serif; 
+    color: #0D5C63;  
+}
+.personaldetails summary{
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.personaldetails ul li{
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+    word-spacing: 2px;
+    list-style-type: none;
+}
+.personaldetails table tr td label{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+.personaldetails table tr td input{
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+    word-spacing: 2px;
+    margin-left: 20px;
+}
+.personaldetails strong {
+    padding-top: 20px;
+    font-size: larger;
+}
+.contains ul li::before{
+    content: '✍️';
+    padding-right: 20px;
+    font-size: larger;
+    list-style-type: none;
+}
+.abc{
+    margin-left: 50px;
+}
+
+
